@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border-radius: 10px;
+    border-radius: 17px;
 }
 
 html {
@@ -13,46 +13,39 @@ html {
 
 body {
     font-family: "Outfit", "Open Sans";
-    background-color: royalblue;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    max-width: fit-content;
-    min-height: fit-content;
-    margin: 124px auto;
-    padding: 15px;
+    max-width: 360px;
+    margin: 0 auto;
 }
 
 .container .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px 5px;
+    text-align: center;
+    margin: 0 1em;
 }
 
 .container .card img {
-    width: 273px;
-    height: 273px;
+    width: 100%;
 }
 
 .container .card .text {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 264px;
-    text-align: center;
+    padding: 22px 10px;
 }
 
 .container .card .text h2 {
-    margin: 20px 0;
-    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
 }
 
 .container .card .text p {
-    margin-bottom: 20px;
-    color: hsl(211, 18%, 77%);
+    color: hsl(220, 15%, 55%);
     font-weight: 400;
 }
